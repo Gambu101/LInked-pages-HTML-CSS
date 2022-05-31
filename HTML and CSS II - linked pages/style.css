@@ -1,0 +1,68 @@
+body{
+    background: steelblue;
+    color: rgb(132, 40, 40)
+}
+#navbar{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+}
+figure{
+}
+.myImage{
+    height: 200px;
+    width: 200px;
+}
+
+#contactButton{
+    height: 50px;
+    width: 500px;
+    border: 2px;
+    border-radius: 15px;
+    margin-left: 10em;
+    margin-right: 10em;
+    background: red;
+    color: skyblue
+}
+.log_in{
+    align-items: center;
+    text-align: center;
+}
+#welcome{
+    font-size: 50px;
+    margin-top: 3rem;
+}
+#logins{
+    display: flex;
+    flex-direction: column;
+}
+.logEmail{
+    font-size: 30px;
+    margin: 30px;   
+}
+.logPass{
+    font-size: 30px;
+    margin: 30px;
+}
+
+/* ContactPage styling */
+.contact{
+    text-align: center;
+    font-size: 25px;
+}
+/* .mainContact{
+    margin: 5em;
+} */
+.contactName{
+    margin: 10px;
+}
+.contactEmail{
+    margin: 10px;
+}
+/* .reg{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5em;
+} */
